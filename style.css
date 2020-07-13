@@ -1,0 +1,144 @@
+body {
+  background-color: gray;
+}
+.header-title {
+  text-align: center;
+  margin: 25px 0px;
+  font-size: 26px;
+}
+h5 {
+  text-align: center;
+  margin: 25px 0px;
+}
+.container {
+  position: relative;
+}
+.flex-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  height: auto;
+  width: 70%;
+}
+.flex-container-right {
+  display: inline-flex;
+  flex-direction: column;
+  align-content: space-between;
+  margin: 0 auto;
+  width: 25%;
+  height: auto;
+  box-sizing: border-box;
+}
+.flex-container-right > div {
+  padding: 12px;
+  text-align: center;
+  align-self: center;
+  background-color: #72c3dc;
+  color: white;
+  cursor: pointer;
+  width: 163px;
+  margin-bottom: 35px;
+  border-radius: 8px;
+  box-shadow: 3px 4px 5px 2px #2b8ead;
+}
+.flex-container > div {
+  text-align: center;
+  line-height: 120px;
+  font-size: 65px;
+  box-sizing: border-box;
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+  width: 33%;
+}
+.card-1 {
+  background-color: #000000;
+  border-left: 10px solid #000000;
+}
+.card-2 {
+  background-color: #333333;
+  border-left: 10px solid #333333;
+}
+.card-3 {
+  background-color: #2f454e;
+  border-left: 10px solid #2f454e;
+}
+.card-4 {
+  background-color: #efefef;
+  border-left: 10px solid #efefef;
+}
+.card-5 {
+  background-color: #72c3dc;
+  border-left: 10px solid #72c3dc;
+}
+.card-6 {
+  background-color: #2b8ead;
+  border-left: 10px solid #2b8ead;
+}
+.card-7 {
+  background-color: #6f98a8;
+  border-left: 10px solid #6f98a8;
+}
+.card-8 {
+  background-color: #bfbfbf;
+  border-left: 10px solid #bfbfbf;
+}
+.card-9 {
+  background-color: #2f454e;
+  border-left: 10px solid #2f454e;
+}
+
+@media screen and (max-width: 450px) {
+  body {
+    background-color: white;
+    margin: 0px;
+    border: 10px solid #000;
+  }
+  .flex-container {
+    width: 100%;
+    margin-top: 75px;
+  }
+  .flex-container > div {
+    text-align: center;
+    line-height: 40px;
+    font-size: 35px;
+    background-color: lightgray;
+    box-sizing: border-box;
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+  }
+
+  .flex-container-right {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+  }
+  .flex-container-right > div {
+    padding: 13px;
+    text-align: center;
+    align-self: center;
+    background-color: #72c3dc;
+    color: white;
+    cursor: pointer;
+    width: 163px;
+    margin-bottom: 35px;
+    margin-right: 44px;
+    margin-left: 21px;
+    border-radius: 8px;
+    box-shadow: 3px 4px 5px 2px #2b8ead;
+  }
+  .h3{
+    background-attachment: #000;
+  }
+  .header-title {
+    text-align: center;
+    margin: 0px 0px 25px;
+    font-size: 26px;
+    background-color: #000;
+    color: #FFF;
+    padding: 20px;
+  }
+}
